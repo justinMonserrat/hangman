@@ -1,0 +1,63 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+#heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.keyboard-row {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.key-tile {
+    /*Box*/
+    border: 1px solid lightgray;
+    width: 26px;
+    height: 30px;
+    margin: 1px;
+    background-color: white;
+
+    /*Text*/
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-box {
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background-color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center; 
+    margin: 1px;
+}
+
+#livesDIV {
+    text-align: center;
+}
+
+.answerRow {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
